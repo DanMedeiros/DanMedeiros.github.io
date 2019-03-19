@@ -185,11 +185,14 @@ header{
     width: 300px;
 }
 
+<<<<<<< HEAD
 .curriculo i{
 
     padding: 20px;
 }
 
+=======
+>>>>>>> 0cb2c61fd67f82b687898dd04d0f98b7f9cc5cf1
 .form input, textarea, button{
     width: 100%;
     margin: 10px 0;
