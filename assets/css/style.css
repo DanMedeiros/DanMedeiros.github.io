@@ -62,7 +62,7 @@ header{
 .home {
     height: 640px;
     background: transparent;
-    background: url(../img/cover.jpg);
+    background: url(../img/imgBanner.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ header{
     margin-top: 100px;
 }
 
-.titleSection{
+.titleSection, .skill{
     font-family: 'Russo One', sans-serif;
     padding-top: 100px;
 }
@@ -185,14 +185,11 @@ header{
     width: 300px;
 }
 
-<<<<<<< HEAD
-.curriculo i{
+.curriculo{
 
     padding: 20px;
 }
 
-=======
->>>>>>> 0cb2c61fd67f82b687898dd04d0f98b7f9cc5cf1
 .form input, textarea, button{
     width: 100%;
     margin: 10px 0;
@@ -200,6 +197,10 @@ header{
 
 input::placeholder, textarea::placeholder {
     padding-left: 20px;
+  }
+
+  .contato{
+      margin-top: 10px;
   }
 
 .copyright{
