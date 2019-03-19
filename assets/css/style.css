@@ -4,6 +4,11 @@ body{
     margin: 0;
 }
 
+header{
+
+    z-index: 1;
+}
+
 .logo, .navBar{
     display: inline;
 }
@@ -47,15 +52,9 @@ body{
     border-bottom: #ec3237 solid 2px;
 }
 
-section, footer {
-    position: relative;
-    background-color: #ffffff;
-    border-bottom: 1px solid #fafafa;
-    z-index: -1;
-}
 
-.home{   
-    z-index: -1;
+
+.home{  
     background-position-x: 65%;
     background-size: cover;
 }
@@ -67,6 +66,12 @@ section, footer {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#sobre{
+
+    z-index: -1;
+
 }
 
 .homeWrao{
@@ -161,6 +166,25 @@ section, footer {
     transition: width .6s ease;
 }
 
+.cards{
+    position: flex;
+    margin: auto 0;
+}
+
+.card{
+    display: inline-block;
+    margin: 30px;
+
+}
+
+.card div:hover{
+    cursor: pointer;
+}
+
+.card img{
+    width: 300px;
+}
+
 .form input, textarea, button{
     width: 100%;
     margin: 10px 0;
@@ -170,8 +194,14 @@ input::placeholder, textarea::placeholder {
     padding-left: 20px;
   }
 
-  .copyright{
-      text-align: center;
-      color: #ec3237;
-      padding: 20px 0;
+.copyright{
+    text-align: center;
+    color: #ec3237;
+    padding: 20px 0;
   }
+
+ header, section, footer {
+    position: relative;
+    background-color: #ffffff;
+    border-bottom: 1px solid #fafafa;
+} 
